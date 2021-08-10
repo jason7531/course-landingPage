@@ -1,0 +1,195 @@
+ #custom-footer {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+ 
+ .social {
+     font-size: 21px
+ }
+ 
+ .carousel-wrapper {
+     width: 1000px;
+     margin: auto;
+     position: relative;
+     text-align: center;
+     font-family: sans-serif;
+ }
+ 
+ .owl-carousel .owl-nav {
+     overflow: hidden;
+     height: 0px;
+ }
+ 
+ .owl-theme .owl-dots .owl-dot.active span,
+ .owl-theme .owl-dots .owl-dot:hover span {
+     background: #5110e9;
+ }
+ 
+ .owl-carousel .item {
+     text-align: center;
+ }
+ 
+ .owl-carousel .nav-button {
+     height: 50px;
+     width: 25px;
+     cursor: pointer;
+     position: absolute;
+     background: none !important;
+     color: black !important;
+     font-size: xxx-large !important;
+     top: 110px !important;
+ }
+ 
+ .owl-carousel .owl-prev.disabled,
+ .owl-carousel .owl-next.disabled {
+     pointer-events: none;
+     opacity: 0.25;
+ }
+ 
+ .owl-carousel .owl-prev {
+     left: -50px;
+ }
+ 
+ .owl-carousel .owl-next {
+     right: -35px;
+ }
+ 
+ .owl-theme .owl-nav [class*=owl-] {
+     color: #ffffff;
+     font-size: 39px;
+     background: #000000;
+     border-radius: 3px;
+ }
+ 
+ .owl-carousel .prev-carousel:hover {
+     background-position: 0px -53px;
+ }
+ 
+ .owl-carousel .next-carousel:hover {
+     background-position: -24px -53px;
+ }
+ 
+ @media (max-width: 590px) {
+     .owl-carousel .nav-button {
+         display: none !important;
+     }
+ }
+ 
+ .scroll {
+     white-space: nowrap;
+     /* [1] */
+     overflow-x: auto;
+     /* [2] */
+     -webkit-overflow-scrolling: touch;
+     /* [3] */
+     -ms-overflow-style: -ms-autohiding-scrollbar;
+     /* [4] */
+ }
+ /* [5] */
+ 
+ .scroll::-webkit-scrollbar {
+     display: none;
+ }
+ 
+ .textf1 a {
+     text-decoration: none;
+     margin: 20px;
+     font-weight: bold;
+     color: #805a5a;
+ }
+ 
+ .item {
+     text-align: left !important;
+ }
+ 
+ .social-icons {
+     padding-left: 0;
+     margin-bottom: 0;
+     list-style: none
+ }
+ 
+ .social-icons li {
+     display: inline-block;
+     margin-bottom: 4px
+ }
+ 
+ .social-icons li.title {
+     margin-right: 15px;
+     text-transform: uppercase;
+     color: #96a2b2;
+     font-weight: 700;
+     font-size: 13px
+ }
+ 
+ .social-icons a {
+     background-color: #eceeef;
+     color: #818a91;
+     font-size: 16px;
+     display: inline-block;
+     line-height: 44px;
+     width: 44px;
+     height: 44px;
+     text-align: center;
+     margin-right: 8px;
+     border-radius: 100%;
+     -webkit-transition: all .2s linear;
+     -o-transition: all .2s linear;
+     transition: all .2s linear
+ }
+ 
+ .social-icons a:active,
+ .social-icons a:focus,
+ .social-icons a:hover {
+     color: #fff;
+     background-color: #29aafe
+ }
+ 
+ .social-icons.size-sm a {
+     line-height: 34px;
+     height: 34px;
+     width: 34px;
+     font-size: 14px
+ }
+ 
+ .social-icons a.facebook:hover {
+     background-color: #3b5998
+ }
+ 
+ .social-icons a.twitter:hover {
+     background-color: #00aced
+ }
+ 
+ .social-icons a.linkedin:hover {
+     background-color: #007bb6
+ }
+ 
+ .social-icons a.dribbble:hover {
+     background-color: #ea4c89
+ }
+ 
+ @media (max-width:767px) {
+     .social-icons li.title {
+         display: block;
+         margin-right: 0;
+         font-weight: 600
+     }
+ }
+ 
+ @media (min-width: 1150px) {
+     .edt {
+         position: absolute;
+     }
+     .edtp {
+         position: relative;
+     }
+ }
+ 
+ @media (max-width: 768px) {
+     .bgrow {
+         min-height: 700px;
+     }
+ }
